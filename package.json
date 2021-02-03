@@ -1,0 +1,43 @@
+{
+  "name": "@vicentecalfo/aqui-tem-mata-api-wrapper",
+  "version": "1.0.0",
+  "description": "Este pacote visa buscar informações de desmatamento da Mata Atlântica através dos recursos da API do projeto \"Aqui Tem Mata?\"",
+  "main": "dist/aqui-tem-mata-api.js",
+  "types": "dist/aqui-tem-mata-api.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "ts-node src/aqui-tem-mata-api.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentecalfo/aqui-tem-mata-api-wrapper.git"
+  },
+  "author": "Vicente Calfo <vicentecalfo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vicentecalfo/aqui-tem-mata-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/vicentecalfo/aqui-tem-mata-api-wrapper#readme",
+  "keywords": [
+    "aqui tem mata?",
+    "mata atlântica",
+    "meio ambiente",
+    "desmatamento",
+    "Brasil",
+    "api"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@akanass/rx-http-request": "^3.3.0",
+    "rxjs": "^6.6.3"
+  }
+}
